@@ -159,7 +159,7 @@ class Experiment(object):
         config_path = os.path.join(output_dir, "config.txt")
 
         # Transfer all local arguments/variables into attributes
-        locs = {k: v for k, v in locals().items() if k is not 'self'}
+        locs = {k: v for k, v in locals().items() if k != 'self'}
         self.__dict__.update(locs)
 
         # Load checkpoint and check compatibility

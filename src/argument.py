@@ -9,7 +9,7 @@ def parse():
         description='Bird-Species-Classification-Using-Transfer-Learning')
 
     parser.add_argument('--root_dir', type=str,
-                        default='../dataset/BSDS300/images', help='root directory of dataset')
+                        default='../dataset/CBSD68-dataset/CBSD68/noisy10', help='root directory of dataset')
     parser.add_argument('--output_dir', type=str,
                         default='../checkpoints/', help='directory of saved checkpoints')
     parser.add_argument('--num_epochs', type=int,
@@ -38,7 +38,7 @@ class Args():
     '''
 
     def __init__(self):
-        self.root_dir = '../dataset/BSDS300/images'
+        self.root_dir = '../dataset/CBSD68/dataset/CBSD68/noisy10'
         self.output_dir = '../checkpoints/'
         self.num_epochs = 200
         self.D = 6
