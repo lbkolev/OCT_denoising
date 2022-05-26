@@ -75,3 +75,4 @@ class DenoisingStatsManager(nt.StatsManager):
         loss = super(DenoisingStatsManager, self).summarize()
         psnr = self.running_psnr / self.number_update
         return {'loss': loss, 'PSNR': psnr.cpu()}
+
