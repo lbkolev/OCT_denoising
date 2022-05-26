@@ -9,9 +9,9 @@ def parse():
         description='Bird-Species-Classification-Using-Transfer-Learning')
 
     parser.add_argument('--root_dir', type=str,
-                        default='../dataset/CBSD68-dataset/CBSD68/noisy10', help='root directory of dataset')
+                        default='../dataset/CBSD68-dataset/CBSD68/', help='root directory of dataset')
     parser.add_argument('--output_dir', type=str,
-                        default='../checkpoints/', help='directory of saved checkpoints')
+                        default='../checkpoints/averaged/', help='directory of saved checkpoints')
     parser.add_argument('--num_epochs', type=int,
                         default=200, help='number of epochs')
     parser.add_argument('--D', type=int,

@@ -13,19 +13,30 @@ class NoisyBSDSDataset(td.Dataset):
         super(NoisyBSDSDataset, self).__init__()
         self.mode = mode
         self.image_size = image_size
-        self.sigma = sigma
-        self.images_dir = os.path.join(root_dir, mode)
-        self.files = os.listdir(self.images_dir)
+        #self.sigma = sigma
+        #self.images_dir = os.path.join(root_dir, mode)
+        #self.files = os.listdir(self.images_dir)
+
+        self.original_images_dir = os.path.join(root_dir, 'original', mode)
+        self.original_files = os.listdir(self.original_images_dir)
+
+        self.averaged_images_dir = os.path.join(root_dir, 'averaged', mode)
+        self.averaged_files = os.listdir(self.averaged_images_dir)
 
     def __len__(self):
-        return len(self.files)
+        return len(self.original_files)
 
     def __repr__(self):
-        return "NoisyBSDSDataset(mode={}, image_size={}, sigma={})". \
-            format(self.mode, self.image_size, self.sigma)
+        #return "NoisyBSDSDataset(mode={}, image_size={}, sigma={})". \
+        #    format(self.mode, self.image_size, self.sigma)
+        return "NoisyBSDSDataset(mode={}, image_size={})". \
+            format(self.mode, self.image_size)
 
     def __getitem__(self, idx):
-        img_path = os.path.join(self.images_dir, self.files[idx])
+        
+        return self.get_noisy_img(idx), self.get_clean_img(idx)
+
+        """img_path = os.path.join(self.images_dir, self.files[idx])
         clean = Image.open(img_path).convert('RGB')
         # random crop
         i = np.random.randint(clean.size[0] - self.image_size[0])
@@ -41,4 +52,43 @@ class NoisyBSDSDataset(td.Dataset):
         clean = transform(clean)
 
         noisy = clean + 2 / 255 * self.sigma * torch.randn(clean.shape)
-        return noisy, clean
+        return noisy, clean"""
+
+
+    def get_clean_img(self, index):
+        img_path = os.path.join(self.original_images_dir, self.original_files[index])
+        img = Image.open(img_path)
+
+        # random crop
+        i = np.random.randint(img.size[0] - self.image_size[0])
+        j = np.random.randint(img.size[1] - self.image_size[1])
+
+        img = img.crop([i, j, i+self.image_size[0], j+self.image_size[1]])
+        transform = tv.transforms.Compose([
+            # convert it to a tensor
+            tv.transforms.ToTensor(),
+            # normalize it to the range [−1, 1]
+            tv.transforms.Normalize((.5, .5, .5), (.5, .5, .5))
+        ])
+        img = transform(img)
+
+        return img
+
+    def get_noisy_img(self, index):
+        img_path = os.path.join(self.averaged_images_dir, self.averaged_files[index])
+        img = Image.open(img_path)
+
+        # random crop
+        i = np.random.randint(img.size[0] - self.image_size[0])
+        j = np.random.randint(img.size[1] - self.image_size[1])
+
+        img = img.crop([i, j, i+self.image_size[0], j+self.image_size[1]])
+        transform = tv.transforms.Compose([
+            # convert it to a tensor
+            tv.transforms.ToTensor(),
+            # normalize it to the range [−1, 1]
+            tv.transforms.Normalize((.5, .5, .5), (.5, .5, .5))
+        ])
+        img = transform(img)
+
+        return img
