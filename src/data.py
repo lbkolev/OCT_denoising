@@ -57,7 +57,7 @@ class NoisyBSDSDataset(td.Dataset):
 
     def get_clean_img(self, index):
         img_path = os.path.join(self.original_images_dir, self.original_files[index])
-        img = Image.open(img_path)
+        img = Image.open(img_path).convert('RGB')
 
         # random crop
         i = np.random.randint(img.size[0] - self.image_size[0])
@@ -76,7 +76,7 @@ class NoisyBSDSDataset(td.Dataset):
 
     def get_noisy_img(self, index):
         img_path = os.path.join(self.averaged_images_dir, self.averaged_files[index])
-        img = Image.open(img_path)
+        img = Image.open(img_path).convert('RGB')
 
         # random crop
         i = np.random.randint(img.size[0] - self.image_size[0])
