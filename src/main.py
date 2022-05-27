@@ -13,9 +13,9 @@ def run(args):
 
     # dataset
     train_set = NoisyBSDSDataset(
-        args.root_dir, image_size=args.image_size, sigma=args.sigma)
+        args.root_dir, image_size=args.image_size, sigma=args.sigma, averaged=args.averaged)
     test_set = NoisyBSDSDataset(
-        args.root_dir, mode='test', image_size=args.test_image_size, sigma=args.sigma)
+        args.root_dir, mode='test', image_size=args.test_image_size, sigma=args.sigma, averaged=args.averaged)
 
     # model
     if args.model == 'dncnn':
