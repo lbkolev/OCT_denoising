@@ -3,6 +3,7 @@ import matplotlib.pyplot as plt
 import nntools as nt
 import torch
 from torch import nn
+from torch import tensor
 
 
 def imshow(image, ax=plt):
@@ -64,7 +65,8 @@ class DenoisingStatsManager(nt.StatsManager):
 
     def init(self):
         super(DenoisingStatsManager, self).init()
-        self.running_psnr = 0
+        #self.running_psnr = 0
+        self.running_psnr = torch.log(torch.tensor([0]))
 
     def accumulate(self, loss, x, y, d):
         super(DenoisingStatsManager, self).accumulate(loss, x, y, d)

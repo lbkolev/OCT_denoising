@@ -24,7 +24,7 @@ def parse():
                         help='dncnn, udncnn, or dudncnn')
     parser.add_argument('--lr', type=float, default=1e-3,
                         help='learning rate for training')
-    parser.add_argument('--image_size', type=tuple, default=(320,320))
+    parser.add_argument('--image_size', type=tuple, default=(180,180))
     parser.add_argument('--test_image_size', type=tuple, default=(320, 320))
     parser.add_argument('--batch_size', type=int, default=4)
     parser.add_argument('--sigma', type=int, default=30)
