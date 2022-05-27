@@ -28,6 +28,7 @@ def parse():
     parser.add_argument('--test_image_size', type=tuple, default=(320, 320))
     parser.add_argument('--batch_size', type=int, default=4)
     parser.add_argument('--sigma', type=int, default=30)
+    parser.add_argument('--averaged', type=bool, default=False)
 
     return parser.parse_args()
 
