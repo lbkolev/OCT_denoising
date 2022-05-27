@@ -19,7 +19,7 @@ Net(DUDnCNN(
     (5): BatchNorm2d(64, eps=64, momentum=0.1, affine=True, track_running_stats=True)
   )
 ))
-TrainSet(NoisyBSDSDataset(mode=train, image_size=(320, 320)))
+TrainSet(NoisyBSDSDataset(mode=train, image_size=(180, 180)))
 ValSet(NoisyBSDSDataset(mode=test, image_size=(320, 320)))
 Optimizer(Adam (
 Parameter Group 0
