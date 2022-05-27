@@ -73,8 +73,7 @@ class StatsManager(object):
     def init(self):
         """Initialize/Reset all the statistics"""
         self.running_loss = 0
-        #self.number_update = 0
-        self.number_update = 0.001
+        self.number_update = 1
 
     def accumulate(self, loss, x=None, y=None, d=None):
         """Accumulate statistics

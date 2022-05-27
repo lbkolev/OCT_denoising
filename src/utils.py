@@ -65,8 +65,7 @@ class DenoisingStatsManager(nt.StatsManager):
 
     def init(self):
         super(DenoisingStatsManager, self).init()
-        #self.running_psnr = 0
-        self.running_psnr = torch.log(torch.tensor([0]))
+        self.running_psnr = 0
 
     def accumulate(self, loss, x, y, d):
         super(DenoisingStatsManager, self).accumulate(loss, x, y, d)
