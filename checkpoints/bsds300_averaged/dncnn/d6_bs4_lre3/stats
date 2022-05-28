@@ -1,0 +1,117 @@
+Epoch 1 | Time: 73.54s | Training Loss: 0.039446 | Evaluation Loss: 0.023823                                                                                                 
+Epoch 2 | Time: 73.59s | Training Loss: 0.021004 | Evaluation Loss: 0.018753                                                                                                   
+Epoch 3 | Time: 73.77s | Training Loss: 0.017478 | Evaluation Loss: 0.016124                                                                                                   
+Epoch 4 | Time: 74.25s | Training Loss: 0.015341 | Evaluation Loss: 0.014427                                                                                                   
+Epoch 5 | Time: 73.45s | Training Loss: 0.013876 | Evaluation Loss: 0.013269                                                                                                   
+Epoch 6 | Time: 72.64s | Training Loss: 0.012941 | Evaluation Loss: 0.012263                                                                                                   
+Epoch 7 | Time: 75.23s | Training Loss: 0.012130 | Evaluation Loss: 0.011699                                                                                                   
+Epoch 8 | Time: 73.64s | Training Loss: 0.011427 | Evaluation Loss: 0.011149                                                                                                   
+Epoch 9 | Time: 75.55s | Training Loss: 0.010960 | Evaluation Loss: 0.010736                                                                                                   
+Epoch 10 | Time: 76.19s | Training Loss: 0.010538 | Evaluation Loss: 0.010350                                                                                                  
+Epoch 11 | Time: 75.54s | Training Loss: 0.010102 | Evaluation Loss: 0.010071                                                                                                  
+Epoch 12 | Time: 75.89s | Training Loss: 0.009934 | Evaluation Loss: 0.009723                                                                                                  
+Epoch 13 | Time: 73.89s | Training Loss: 0.009767 | Evaluation Loss: 0.009572                                                                                                  
+Epoch 14 | Time: 73.38s | Training Loss: 0.009400 | Evaluation Loss: 0.009431                                                                                                  
+Epoch 15 | Time: 74.18s | Training Loss: 0.009250 | Evaluation Loss: 0.009230                                                                                            
+Epoch 16 | Time: 75.29s | Training Loss: 0.009103 | Evaluation Loss: 0.009203                                                                                                  
+Epoch 17 | Time: 76.26s | Training Loss: 0.008991 | Evaluation Loss: 0.009180                                                                                                  
+Epoch 18 | Time: 77.65s | Training Loss: 0.008852 | Evaluation Loss: 0.008907                                                                                                  
+Epoch 19 | Time: 73.08s | Training Loss: 0.008948 | Evaluation Loss: 0.009133                                                                                                  
+Epoch 20 | Time: 73.33s | Training Loss: 0.008830 | Evaluation Loss: 0.008949                                                                                                  
+Epoch 21 | Time: 75.20s | Training Loss: 0.008622 | Evaluation Loss: 0.008755                                                                                                  
+Epoch 22 | Time: 75.58s | Training Loss: 0.008675 | Evaluation Loss: 0.008515                                                                                                  
+Epoch 23 | Time: 75.93s | Training Loss: 0.008474 | Evaluation Loss: 0.008546                                                                                                  
+Epoch 24 | Time: 75.52s | Training Loss: 0.008555 | Evaluation Loss: 0.008923                                                                                                  
+Epoch 25 | Time: 75.64s | Training Loss: 0.008369 | Evaluation Loss: 0.008897                                                                                                  
+Epoch 26 | Time: 75.91s | Training Loss: 0.008268 | Evaluation Loss: 0.008533                                                                                                  
+Epoch 27 | Time: 74.52s | Training Loss: 0.008339 | Evaluation Loss: 0.008309                                                                                                  
+Epoch 28 | Time: 75.56s | Training Loss: 0.008133 | Evaluation Loss: 0.008262                                                                                                  
+Epoch 29 | Time: 74.63s | Training Loss: 0.008207 | Evaluation Loss: 0.008922                                                                                                  
+Epoch 30 | Time: 73.73s | Training Loss: 0.008213 | Evaluation Loss: 0.008216                                                                                                  
+Epoch 31 | Time: 76.63s | Training Loss: 0.008093 | Evaluation Loss: 0.008119                                                                                                  
+Epoch 32 | Time: 74.26s | Training Loss: 0.007912 | Evaluation Loss: 0.008046                                                                                                  
+Epoch 33 | Time: 75.70s | Training Loss: 0.008113 | Evaluation Loss: 0.008127                                                                                                  
+Epoch 34 | Time: 76.18s | Training Loss: 0.008007 | Evaluation Loss: 0.008244                                                                                                  
+Epoch 35 | Time: 73.80s | Training Loss: 0.007913 | Evaluation Loss: 0.008140                                                                                                  
+Epoch 36 | Time: 73.69s | Training Loss: 0.007869 | Evaluation Loss: 0.008043                                                                                                  
+Epoch 37 | Time: 72.64s | Training Loss: 0.007912 | Evaluation Loss: 0.008163                                                                                                  
+Epoch 38 | Time: 75.67s | Training Loss: 0.007876 | Evaluation Loss: 0.008067                                                                                                  
+Epoch 39 | Time: 74.76s | Training Loss: 0.007768 | Evaluation Loss: 0.008014                                                                                                  
+Epoch 40 | Time: 76.29s | Training Loss: 0.007821 | Evaluation Loss: 0.007981                                                                                                  
+Epoch 41 | Time: 75.32s | Training Loss: 0.007698 | Evaluation Loss: 0.007843                                                                                                  
+Epoch 42 | Time: 75.87s | Training Loss: 0.007673 | Evaluation Loss: 0.007848                                                                                                  
+Epoch 43 | Time: 74.91s | Training Loss: 0.007742 | Evaluation Loss: 0.007878                                                                                                  
+Epoch 44 | Time: 75.99s | Training Loss: 0.007634 | Evaluation Loss: 0.007707                                                                                                  
+Epoch 45 | Time: 76.13s | Training Loss: 0.007516 | Evaluation Loss: 0.007756                                          
+Epoch 46 | Time: 76.78s | Training Loss: 0.007607 | Evaluation Loss: 0.007885                                                                                                  
+Epoch 47 | Time: 76.30s | Training Loss: 0.007634 | Evaluation Loss: 0.007821                                               
+Epoch 48 | Time: 75.07s | Training Loss: 0.007758 | Evaluation Loss: 0.007681
+Epoch 49 | Time: 74.68s | Training Loss: 0.007552 | Evaluation Loss: 0.007662                                                                                                   
+Epoch 50 | Time: 75.56s | Training Loss: 0.007535 | Evaluation Loss: 0.007923                                                                                                  
+Namespace(root_dir='../dataset/BSDS300/images_averaged/', output_dir='../checkpoints/bsds300_averaged/dncnn/d6_bs4_lre3/', num_epochs=100, D=6, C=64, plot=False, model='dncnn', lr=0.001, image_size=(180, 180), test_image_size=(320, 320), batch_size=4, sigma=30, averaged=False)
+Start/Continue training from epoch 50
+Traceback (most recent call last):
+  File "/root/OCT_denoising/src/main.py", line 52, in <module>
+    run(args)
+  File "/root/OCT_denoising/src/main.py", line 46, in run
+    exp.run(num_epochs=args.num_epochs)
+  File "/root/OCT_denoising/src/nntools.py", line 265, in run
+    loss.backward()
+  File "/usr/lib64/python3.10/site-packages/torch/_tensor.py", line 363, in backward
+    torch.autograd.backward(self, gradient, retain_graph, create_graph, inputs=inputs)
+  File "/usr/lib64/python3.10/site-packages/torch/autograd/__init__.py", line 173, in backward
+    Variable._execution_engine.run_backward(  # Calls into the C++ engine to run the backward pass
+KeyboardInterrupt
+Namespace(root_dir='../dataset/BSDS300/images_averaged/', output_dir='../checkpoints/bsds300_averaged/dncnn/d6_bs4_lre3/', num_epochs=100, D=6, C=64, plot=False, model='dncnn', lr=0.001, image_size=(180, 180), test_image_size=(320, 320), batch_size=4, sigma=30, averaged=False)
+Start/Continue training from epoch 50
+Epoch 51 | Time: 73.84s | Training Loss: 0.007467 | Evaluation Loss: 0.007574
+Epoch 52 | Time: 76.16s | Training Loss: 0.007520 | Evaluation Loss: 0.007759
+Epoch 53 | Time: 72.21s | Training Loss: 0.007434 | Evaluation Loss: 0.007614
+Epoch 54 | Time: 73.88s | Training Loss: 0.007426 | Evaluation Loss: 0.008022
+Epoch 55 | Time: 74.56s | Training Loss: 0.007459 | Evaluation Loss: 0.007606
+Epoch 56 | Time: 74.94s | Training Loss: 0.007519 | Evaluation Loss: 0.007660
+Epoch 57 | Time: 75.20s | Training Loss: 0.007210 | Evaluation Loss: 0.007571
+Epoch 58 | Time: 73.46s | Training Loss: 0.007322 | Evaluation Loss: 0.007632
+Epoch 59 | Time: 74.11s | Training Loss: 0.007436 | Evaluation Loss: 0.007711
+Epoch 60 | Time: 72.53s | Training Loss: 0.007319 | Evaluation Loss: 0.007684
+Epoch 61 | Time: 73.82s | Training Loss: 0.007325 | Evaluation Loss: 0.007673
+Epoch 62 | Time: 74.05s | Training Loss: 0.007362 | Evaluation Loss: 0.007487
+Epoch 63 | Time: 72.65s | Training Loss: 0.007418 | Evaluation Loss: 0.007605
+Epoch 64 | Time: 76.03s | Training Loss: 0.007310 | Evaluation Loss: 0.007572
+Epoch 65 | Time: 75.05s | Training Loss: 0.007249 | Evaluation Loss: 0.007532
+Epoch 66 | Time: 75.66s | Training Loss: 0.007287 | Evaluation Loss: 0.007460
+Epoch 67 | Time: 74.70s | Training Loss: 0.007237 | Evaluation Loss: 0.007483
+Epoch 68 | Time: 73.50s | Training Loss: 0.007399 | Evaluation Loss: 0.007530
+Epoch 69 | Time: 74.41s | Training Loss: 0.007295 | Evaluation Loss: 0.007460
+Epoch 70 | Time: 74.15s | Training Loss: 0.007383 | Evaluation Loss: 0.007433
+Epoch 71 | Time: 73.65s | Training Loss: 0.007338 | Evaluation Loss: 0.007653
+Epoch 72 | Time: 75.48s | Training Loss: 0.007164 | Evaluation Loss: 0.007426
+Epoch 73 | Time: 73.70s | Training Loss: 0.007028 | Evaluation Loss: 0.007545
+Epoch 74 | Time: 74.57s | Training Loss: 0.007439 | Evaluation Loss: 0.007605
+Epoch 75 | Time: 74.12s | Training Loss: 0.007211 | Evaluation Loss: 0.007422
+Epoch 76 | Time: 76.34s | Training Loss: 0.007296 | Evaluation Loss: 0.007508
+Epoch 77 | Time: 74.98s | Training Loss: 0.007191 | Evaluation Loss: 0.007435
+Epoch 78 | Time: 74.04s | Training Loss: 0.007288 | Evaluation Loss: 0.007393
+Epoch 79 | Time: 74.50s | Training Loss: 0.007228 | Evaluation Loss: 0.007356
+Epoch 80 | Time: 73.93s | Training Loss: 0.007196 | Evaluation Loss: 0.007386
+Epoch 81 | Time: 74.68s | Training Loss: 0.007118 | Evaluation Loss: 0.007424
+Epoch 82 | Time: 73.83s | Training Loss: 0.007208 | Evaluation Loss: 0.007415
+Epoch 83 | Time: 77.81s | Training Loss: 0.007200 | Evaluation Loss: 0.007405
+Epoch 84 | Time: 74.19s | Training Loss: 0.007110 | Evaluation Loss: 0.007355
+Epoch 85 | Time: 73.79s | Training Loss: 0.007101 | Evaluation Loss: 0.007514
+Epoch 86 | Time: 73.24s | Training Loss: 0.007182 | Evaluation Loss: 0.007443
+Epoch 87 | Time: 75.03s | Training Loss: 0.007352 | Evaluation Loss: 0.007602
+Epoch 88 | Time: 73.64s | Training Loss: 0.007204 | Evaluation Loss: 0.007635
+Epoch 89 | Time: 73.29s | Training Loss: 0.007029 | Evaluation Loss: 0.007407
+Epoch 90 | Time: 76.39s | Training Loss: 0.007269 | Evaluation Loss: 0.007466
+Epoch 91 | Time: 74.40s | Training Loss: 0.007244 | Evaluation Loss: 0.007421
+Epoch 92 | Time: 73.85s | Training Loss: 0.007328 | Evaluation Loss: 0.007749
+Epoch 93 | Time: 75.79s | Training Loss: 0.007128 | Evaluation Loss: 0.007501
+Epoch 94 | Time: 72.99s | Training Loss: 0.007083 | Evaluation Loss: 0.007415
+Epoch 95 | Time: 74.32s | Training Loss: 0.007123 | Evaluation Loss: 0.007381
+Epoch 96 | Time: 73.49s | Training Loss: 0.007066 | Evaluation Loss: 0.007750
+Epoch 97 | Time: 75.90s | Training Loss: 0.007206 | Evaluation Loss: 0.007324
+Epoch 98 | Time: 74.81s | Training Loss: 0.007095 | Evaluation Loss: 0.007355
+Epoch 99 | Time: 72.79s | Training Loss: 0.007109 | Evaluation Loss: 0.007441
+Epoch 100 | Time: 72.73s | Training Loss: 0.007094 | Evaluation Loss: 0.007544
+Finish training for 100 epochs
