@@ -22,3 +22,36 @@ Epoch 18 | Time: 184.37s | Training Loss: 0.011756 | Evaluation Loss: 0.011551
 Epoch 19 | Time: 184.38s | Training Loss: 0.011331 | Evaluation Loss: 0.011154
 Epoch 20 | Time: 184.72s | Training Loss: 0.011252 | Evaluation Loss: 0.011009
 Finish training for 20 epochs
+Namespace(root_dir='../dataset/BSDS300/images_averaged/', output_dir='../checkpoints/bsds300_averaged/dncnn/d16_bs4_lre3/', num_epochs=50, D=16, C=64, plot=False, model='dncnn', lr=0.001, image_size=(180, 180), test_image_size=(320, 320), batch_size=4, sigma=30, averaged=False)
+Start/Continue training from epoch 20
+Epoch 21 | Time: 167.41s | Training Loss: 0.010835 | Evaluation Loss: 0.010682
+Epoch 22 | Time: 168.70s | Training Loss: 0.010663 | Evaluation Loss: 0.010968
+Epoch 23 | Time: 170.69s | Training Loss: 0.010352 | Evaluation Loss: 0.010282
+Epoch 24 | Time: 169.87s | Training Loss: 0.010039 | Evaluation Loss: 0.010512
+Epoch 25 | Time: 170.28s | Training Loss: 0.009870 | Evaluation Loss: 0.010099
+Epoch 26 | Time: 169.08s | Training Loss: 0.009782 | Evaluation Loss: 0.010106
+Epoch 27 | Time: 170.80s | Training Loss: 0.009586 | Evaluation Loss: 0.009936
+Epoch 28 | Time: 172.89s | Training Loss: 0.009427 | Evaluation Loss: 0.009513
+Epoch 29 | Time: 170.83s | Training Loss: 0.009284 | Evaluation Loss: 0.009321
+Epoch 30 | Time: 171.60s | Training Loss: 0.009114 | Evaluation Loss: 0.009522
+Epoch 31 | Time: 171.33s | Training Loss: 0.008956 | Evaluation Loss: 0.009217
+Epoch 32 | Time: 170.62s | Training Loss: 0.009309 | Evaluation Loss: 0.009353
+Epoch 33 | Time: 171.67s | Training Loss: 0.009042 | Evaluation Loss: 0.009025
+Epoch 34 | Time: 171.49s | Training Loss: 0.009019 | Evaluation Loss: 0.008951
+Epoch 35 | Time: 171.81s | Training Loss: 0.008655 | Evaluation Loss: 0.008800
+Epoch 36 | Time: 170.64s | Training Loss: 0.008758 | Evaluation Loss: 0.008707
+Epoch 37 | Time: 170.35s | Training Loss: 0.008716 | Evaluation Loss: 0.008806
+Epoch 38 | Time: 171.90s | Training Loss: 0.008563 | Evaluation Loss: 0.008980
+Epoch 39 | Time: 170.86s | Training Loss: 0.008457 | Evaluation Loss: 0.008676
+Epoch 40 | Time: 172.33s | Training Loss: 0.008453 | Evaluation Loss: 0.008679
+Epoch 41 | Time: 172.22s | Training Loss: 0.008444 | Evaluation Loss: 0.008757
+Epoch 42 | Time: 170.35s | Training Loss: 0.008236 | Evaluation Loss: 0.008495
+Epoch 43 | Time: 172.67s | Training Loss: 0.008327 | Evaluation Loss: 0.008352
+Epoch 44 | Time: 171.13s | Training Loss: 0.008355 | Evaluation Loss: 0.008274
+Epoch 45 | Time: 172.61s | Training Loss: 0.008092 | Evaluation Loss: 0.008718
+Epoch 46 | Time: 170.50s | Training Loss: 0.008241 | Evaluation Loss: 0.008667
+Epoch 47 | Time: 173.63s | Training Loss: 0.008119 | Evaluation Loss: 0.008498
+Epoch 48 | Time: 170.45s | Training Loss: 0.008186 | Evaluation Loss: 0.008318
+Epoch 49 | Time: 170.88s | Training Loss: 0.008218 | Evaluation Loss: 0.008790
+Epoch 50 | Time: 171.60s | Training Loss: 0.007863 | Evaluation Loss: 0.008244
+Finish training for 50 epochs
