@@ -1,0 +1,24 @@
+Namespace(root_dir='../dataset/BSDS300/images_averaged/', output_dir='../checkpoints/bsds300_averaged/dncnn/d6_bs4_lre3/', num_epochs=50, D=16, C=64, plot=False, model='dncnn', lr=0.001, image_size=(180, 180), test_image_size=(320, 320), batch_size=4, sigma=30, averaged=False)
+Namespace(root_dir='../dataset/BSDS300/images_averaged/', output_dir='../checkpoints/bsds300_averaged/dncnn/d16_bs4_lre3/', num_epochs=20, D=16, C=64, plot=False, model='dncnn', lr=0.001, image_size=(180, 180), test_image_size=(320, 320), batch_size=4, sigma=30, averaged=False)
+Start/Continue training from epoch 0
+Epoch 1 | Time: 181.93s | Training Loss: 0.064503 | Evaluation Loss: 0.055555
+Epoch 2 | Time: 183.74s | Training Loss: 0.055293 | Evaluation Loss: 0.055096
+Epoch 3 | Time: 185.22s | Training Loss: 0.052913 | Evaluation Loss: 0.048025
+Epoch 4 | Time: 183.48s | Training Loss: 0.042860 | Evaluation Loss: 0.037811
+Epoch 5 | Time: 184.93s | Training Loss: 0.034537 | Evaluation Loss: 0.031549
+Epoch 6 | Time: 183.79s | Training Loss: 0.029883 | Evaluation Loss: 0.027991
+Epoch 7 | Time: 185.17s | Training Loss: 0.026543 | Evaluation Loss: 0.024727
+Epoch 8 | Time: 185.58s | Training Loss: 0.023538 | Evaluation Loss: 0.022064
+Epoch 9 | Time: 184.34s | Training Loss: 0.021214 | Evaluation Loss: 0.019922
+Epoch 10 | Time: 184.88s | Training Loss: 0.019128 | Evaluation Loss: 0.018055
+Epoch 11 | Time: 184.36s | Training Loss: 0.017515 | Evaluation Loss: 0.016629
+Epoch 12 | Time: 184.78s | Training Loss: 0.016205 | Evaluation Loss: 0.015439
+Epoch 13 | Time: 183.08s | Training Loss: 0.014856 | Evaluation Loss: 0.014377
+Epoch 14 | Time: 185.22s | Training Loss: 0.014008 | Evaluation Loss: 0.013474
+Epoch 15 | Time: 183.85s | Training Loss: 0.013307 | Evaluation Loss: 0.013021
+Epoch 16 | Time: 185.26s | Training Loss: 0.012508 | Evaluation Loss: 0.012522
+Epoch 17 | Time: 183.70s | Training Loss: 0.012003 | Evaluation Loss: 0.011848
+Epoch 18 | Time: 184.37s | Training Loss: 0.011756 | Evaluation Loss: 0.011551
+Epoch 19 | Time: 184.38s | Training Loss: 0.011331 | Evaluation Loss: 0.011154
+Epoch 20 | Time: 184.72s | Training Loss: 0.011252 | Evaluation Loss: 0.011009
+Finish training for 20 epochs
