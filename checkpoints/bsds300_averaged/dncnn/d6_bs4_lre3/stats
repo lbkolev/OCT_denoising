@@ -115,3 +115,62 @@ Epoch 98 | Time: 74.81s | Training Loss: 0.007095 | Evaluation Loss: 0.007355
 Epoch 99 | Time: 72.79s | Training Loss: 0.007109 | Evaluation Loss: 0.007441
 Epoch 100 | Time: 72.73s | Training Loss: 0.007094 | Evaluation Loss: 0.007544
 Finish training for 100 epochs
+Namespace(root_dir='../dataset/BSDS300/images_averaged/', output_dir='../checkpoints/bsds300_averaged/dncnn/d6_bs4_lre3/', num_epochs=50, D=6, C=64, plot=False, model='dncnn', lr=0.001, image_size=(180, 180), test_image_size=(320, 320), batch_size=4, sigma=30, averaged=False)
+Start/Continue training from epoch 100
+Finish training for 50 epochs
+Namespace(root_dir='../dataset/BSDS300/images_averaged/', output_dir='../checkpoints/bsds300_averaged/dncnn/d6_bs4_lre3/', num_epochs=100, D=6, C=64, plot=False, model='dncnn', lr=0.001, image_size=(180, 180), test_image_size=(320, 320), batch_size=4, sigma=30, averaged=False)
+Start/Continue training from epoch 100
+Finish training for 100 epochs
+Namespace(root_dir='../dataset/BSDS300/images_averaged/', output_dir='../checkpoints/bsds300_averaged/dncnn/d6_bs4_lre3/', num_epochs=150, D=6, C=64, plot=False, model='dncnn', lr=0.001, image_size=(180, 180), test_image_size=(320, 320), batch_size=4, sigma=30, averaged=False)
+Start/Continue training from epoch 100
+Epoch 101 | Time: 81.92s | Training Loss: 0.007089 | Evaluation Loss: 0.007318
+Epoch 102 | Time: 70.12s | Training Loss: 0.007116 | Evaluation Loss: 0.007438
+Epoch 103 | Time: 67.03s | Training Loss: 0.007064 | Evaluation Loss: 0.007468
+Epoch 104 | Time: 71.59s | Training Loss: 0.007239 | Evaluation Loss: 0.007371
+Epoch 105 | Time: 70.78s | Training Loss: 0.007023 | Evaluation Loss: 0.007320
+Epoch 106 | Time: 69.53s | Training Loss: 0.007203 | Evaluation Loss: 0.007487
+Epoch 107 | Time: 72.32s | Training Loss: 0.007289 | Evaluation Loss: 0.007343
+Epoch 108 | Time: 70.18s | Training Loss: 0.007033 | Evaluation Loss: 0.007369
+Epoch 109 | Time: 71.09s | Training Loss: 0.007025 | Evaluation Loss: 0.007337
+Epoch 110 | Time: 70.20s | Training Loss: 0.007063 | Evaluation Loss: 0.007522
+Epoch 111 | Time: 70.29s | Training Loss: 0.007084 | Evaluation Loss: 0.007234
+Epoch 112 | Time: 69.35s | Training Loss: 0.006993 | Evaluation Loss: 0.007364
+Epoch 113 | Time: 69.92s | Training Loss: 0.007144 | Evaluation Loss: 0.007494
+Epoch 114 | Time: 71.67s | Training Loss: 0.007133 | Evaluation Loss: 0.007901
+Epoch 115 | Time: 70.81s | Training Loss: 0.007040 | Evaluation Loss: 0.007371
+Epoch 116 | Time: 71.37s | Training Loss: 0.007116 | Evaluation Loss: 0.007332
+Epoch 117 | Time: 67.51s | Training Loss: 0.006945 | Evaluation Loss: 0.007417
+Epoch 118 | Time: 70.34s | Training Loss: 0.007095 | Evaluation Loss: 0.007312
+Epoch 119 | Time: 70.64s | Training Loss: 0.007012 | Evaluation Loss: 0.007268
+Epoch 120 | Time: 67.64s | Training Loss: 0.007002 | Evaluation Loss: 0.007320
+Epoch 121 | Time: 71.41s | Training Loss: 0.007192 | Evaluation Loss: 0.007246
+Epoch 122 | Time: 70.49s | Training Loss: 0.006987 | Evaluation Loss: 0.007424
+Epoch 123 | Time: 70.76s | Training Loss: 0.007113 | Evaluation Loss: 0.007486
+Epoch 124 | Time: 71.32s | Training Loss: 0.007005 | Evaluation Loss: 0.007311
+Epoch 125 | Time: 69.61s | Training Loss: 0.006984 | Evaluation Loss: 0.007329
+Epoch 126 | Time: 71.30s | Training Loss: 0.006939 | Evaluation Loss: 0.007337
+Epoch 127 | Time: 70.38s | Training Loss: 0.006966 | Evaluation Loss: 0.007299
+Epoch 128 | Time: 72.41s | Training Loss: 0.007169 | Evaluation Loss: 0.007258
+Epoch 129 | Time: 71.66s | Training Loss: 0.007025 | Evaluation Loss: 0.007295
+Epoch 130 | Time: 71.20s | Training Loss: 0.007064 | Evaluation Loss: 0.007307
+Epoch 131 | Time: 72.08s | Training Loss: 0.006971 | Evaluation Loss: 0.007298
+Epoch 132 | Time: 68.46s | Training Loss: 0.007000 | Evaluation Loss: 0.007340
+Epoch 133 | Time: 72.84s | Training Loss: 0.007085 | Evaluation Loss: 0.007360
+Epoch 134 | Time: 71.71s | Training Loss: 0.007134 | Evaluation Loss: 0.007434
+Epoch 135 | Time: 72.44s | Training Loss: 0.007104 | Evaluation Loss: 0.007389
+Epoch 136 | Time: 69.92s | Training Loss: 0.006996 | Evaluation Loss: 0.007297
+Epoch 137 | Time: 71.73s | Training Loss: 0.007071 | Evaluation Loss: 0.007300
+Epoch 138 | Time: 71.82s | Training Loss: 0.006983 | Evaluation Loss: 0.007367
+Epoch 139 | Time: 69.76s | Training Loss: 0.006966 | Evaluation Loss: 0.007343
+Epoch 140 | Time: 71.82s | Training Loss: 0.007116 | Evaluation Loss: 0.007324
+Epoch 141 | Time: 70.39s | Training Loss: 0.007076 | Evaluation Loss: 0.007417
+Epoch 142 | Time: 70.58s | Training Loss: 0.006937 | Evaluation Loss: 0.007301
+Epoch 143 | Time: 70.36s | Training Loss: 0.007079 | Evaluation Loss: 0.007321
+Epoch 144 | Time: 70.98s | Training Loss: 0.006963 | Evaluation Loss: 0.007281
+Epoch 145 | Time: 72.03s | Training Loss: 0.006974 | Evaluation Loss: 0.007276
+Epoch 146 | Time: 70.88s | Training Loss: 0.006982 | Evaluation Loss: 0.007304
+Epoch 147 | Time: 71.92s | Training Loss: 0.006943 | Evaluation Loss: 0.007339
+Epoch 148 | Time: 71.55s | Training Loss: 0.006917 | Evaluation Loss: 0.007467
+Epoch 149 | Time: 72.06s | Training Loss: 0.006990 | Evaluation Loss: 0.007459
+Epoch 150 | Time: 71.54s | Training Loss: 0.006942 | Evaluation Loss: 0.007342
+Finish training for 150 epochs
