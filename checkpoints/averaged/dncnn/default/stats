@@ -51,3 +51,56 @@ Epoch 48 | Time: 15.92s | Training Loss: 0.225338 | Evaluation Loss: 0.154224
 Epoch 49 | Time: 15.97s | Training Loss: 0.255018 | Evaluation Loss: 0.190612
 Epoch 50 | Time: 15.75s | Training Loss: 0.243810 | Evaluation Loss: 0.159655
 Finish training for 50 epochs
+Namespace(root_dir='../dataset/CBSD68-dataset/CBSD68/', output_dir='../checkpoints/averaged/dncnn/default/', num_epochs=100, D=6, C=64, plot=False, model='dncnn', lr=0.001, image_size=(180, 180), test_image_size=(320, 320), batch_size=4, sigma=30, averaged=True)
+Start/Continue training from epoch 50
+Epoch 51 | Time: 14.82s | Training Loss: 0.224273 | Evaluation Loss: 0.147368
+Epoch 52 | Time: 15.07s | Training Loss: 0.235123 | Evaluation Loss: 0.139630
+Epoch 53 | Time: 16.91s | Training Loss: 0.248611 | Evaluation Loss: 0.149755
+Epoch 54 | Time: 15.97s | Training Loss: 0.231678 | Evaluation Loss: 0.145088
+Epoch 55 | Time: 15.57s | Training Loss: 0.243129 | Evaluation Loss: 0.161485
+Epoch 56 | Time: 15.24s | Training Loss: 0.242986 | Evaluation Loss: 0.159539
+Epoch 57 | Time: 15.32s | Training Loss: 0.244076 | Evaluation Loss: 0.147343
+Epoch 58 | Time: 15.52s | Training Loss: 0.231399 | Evaluation Loss: 0.177276
+Epoch 59 | Time: 15.79s | Training Loss: 0.210437 | Evaluation Loss: 0.140924
+Epoch 60 | Time: 16.83s | Training Loss: 0.226066 | Evaluation Loss: 0.166970
+Epoch 61 | Time: 15.77s | Training Loss: 0.239569 | Evaluation Loss: 0.168564
+Epoch 62 | Time: 15.62s | Training Loss: 0.252232 | Evaluation Loss: 0.145291
+Epoch 63 | Time: 15.61s | Training Loss: 0.206449 | Evaluation Loss: 0.173499
+Epoch 64 | Time: 15.24s | Training Loss: 0.226772 | Evaluation Loss: 0.174966
+Epoch 65 | Time: 15.66s | Training Loss: 0.206925 | Evaluation Loss: 0.185624
+Epoch 66 | Time: 15.68s | Training Loss: 0.214685 | Evaluation Loss: 0.168351
+Epoch 67 | Time: 15.76s | Training Loss: 0.225047 | Evaluation Loss: 0.191963
+Epoch 68 | Time: 16.86s | Training Loss: 0.271084 | Evaluation Loss: 0.167008
+Epoch 69 | Time: 16.23s | Training Loss: 0.218652 | Evaluation Loss: 0.160868
+Epoch 70 | Time: 15.63s | Training Loss: 0.216514 | Evaluation Loss: 0.168460
+Epoch 71 | Time: 15.64s | Training Loss: 0.225653 | Evaluation Loss: 0.155212
+Epoch 72 | Time: 15.64s | Training Loss: 0.221469 | Evaluation Loss: 0.135575
+Epoch 73 | Time: 15.63s | Training Loss: 0.243572 | Evaluation Loss: 0.173849
+Epoch 74 | Time: 15.70s | Training Loss: 0.229916 | Evaluation Loss: 0.182266
+Epoch 75 | Time: 15.92s | Training Loss: 0.245421 | Evaluation Loss: 0.144834
+Epoch 76 | Time: 16.82s | Training Loss: 0.232628 | Evaluation Loss: 0.161778
+Epoch 77 | Time: 15.65s | Training Loss: 0.237687 | Evaluation Loss: 0.147521
+Epoch 78 | Time: 15.66s | Training Loss: 0.251454 | Evaluation Loss: 0.192669
+Epoch 79 | Time: 15.83s | Training Loss: 0.232627 | Evaluation Loss: 0.159957
+Epoch 80 | Time: 16.21s | Training Loss: 0.227002 | Evaluation Loss: 0.190011
+Epoch 81 | Time: 15.77s | Training Loss: 0.244886 | Evaluation Loss: 0.164433
+Epoch 82 | Time: 16.23s | Training Loss: 0.241588 | Evaluation Loss: 0.195853
+Epoch 83 | Time: 17.02s | Training Loss: 0.227137 | Evaluation Loss: 0.167708
+Epoch 84 | Time: 15.51s | Training Loss: 0.259701 | Evaluation Loss: 0.220135
+Epoch 85 | Time: 15.69s | Training Loss: 0.233800 | Evaluation Loss: 0.163262
+Epoch 86 | Time: 15.73s | Training Loss: 0.219397 | Evaluation Loss: 0.173153
+Epoch 87 | Time: 15.50s | Training Loss: 0.232256 | Evaluation Loss: 0.144941
+Epoch 88 | Time: 15.69s | Training Loss: 0.228990 | Evaluation Loss: 0.247281
+Epoch 89 | Time: 15.72s | Training Loss: 0.241548 | Evaluation Loss: 0.185599
+Epoch 90 | Time: 15.65s | Training Loss: 0.223254 | Evaluation Loss: 0.193603
+Epoch 91 | Time: 16.89s | Training Loss: 0.229963 | Evaluation Loss: 0.135981
+Epoch 92 | Time: 15.66s | Training Loss: 0.233703 | Evaluation Loss: 0.182199
+Epoch 93 | Time: 15.69s | Training Loss: 0.206134 | Evaluation Loss: 0.133364
+Epoch 94 | Time: 16.13s | Training Loss: 0.218987 | Evaluation Loss: 0.182394
+Epoch 95 | Time: 15.97s | Training Loss: 0.216127 | Evaluation Loss: 0.159844
+Epoch 96 | Time: 16.16s | Training Loss: 0.231797 | Evaluation Loss: 0.187089
+Epoch 97 | Time: 15.70s | Training Loss: 0.223423 | Evaluation Loss: 0.133633
+Epoch 98 | Time: 17.22s | Training Loss: 0.226820 | Evaluation Loss: 0.158456
+Epoch 99 | Time: 15.83s | Training Loss: 0.215318 | Evaluation Loss: 0.153153
+Epoch 100 | Time: 15.89s | Training Loss: 0.216267 | Evaluation Loss: 0.155284
+Finish training for 100 epochs
